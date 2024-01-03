@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+    *
+    {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body { font-family: 'Outfit'; background-color: hsl(212, 45%, 89%)}
+    .wrapper { width: 100%;height: 100vh; display: flex; justify-content: center; align-items: center;}
+    .qrCard { background-color: hsl(0, 0%, 100%); width: 19rem;  border-radius: 18px; padding: 1rem;}
+    .qrImg { overflow: hidden; border-radius: 16px; }
+    .qrImg img { width: 100%; height: 100%;}
+    .qrCard-body {  margin-top: 1rem; display: flex; flex-direction: column; gap: 1.4rem; align-items: center; margin-bottom: 1.2rem;}
+    .qrCard-body > h1 { font-size: 22px; color: hsl(218, 44%, 22%); font-weight: 700;}
+    .qrCard-body > p { font-size: 15px; color: hsl(220, 15%, 55%); font-weight: 400; text-align: center;}
+    .attribution { font-size: 1rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <section class="wrapper">
+    <div class="qrCard">
+      <div class="qrImg">
+        <img src="images/image-qr-code.png" alt="">
+      </div>
+      <div class="qrCard-body">
+        <h1>Improve your front-end <br>skills by building projects</h1>
+        <p>Scan the QR Code to Visit Frontend <br> Mentor and take your coding skills to <br> the next level</p>
+      </div>
+    </div>
+  </section>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.<br> 
+    Coded by <a href="#">Andrey Anugrah Putra</a>.
+  </div>
+</body>
+</html>
